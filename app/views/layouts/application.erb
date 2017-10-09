@@ -1,8 +1,41 @@
 <html>
 	<head>
-		<title>Sinatra Framework</title>
+		<title>bbbitly</title>
+		<meta charset="UTF-8">
+	 	<link rel="stylesheet" type="text/css" href="css/application.css?v=2.2">
+	 	<link href="https://fonts.googleapis.com/earlyaccess/notosansjapanese.css" rel="stylesheet">
+	 	<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+	 	<script src="https://code.jquery.com/jquery-3.2.1.js"　integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="　crossorigin="anonymous"></script>
+	 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	 	
+	 	<script src="js/application.js?v=2.2"></script>
 	</head>
+	<!-- v=2.2 -->
+
 	<body>
+		 <div id="header">
+		 <section class="icon"> 
+				  <a href="https://shinomatsu.github.io/" ><img src="img/Logo_orange1.png" align="right" class="bitly_icon"></a></a>
+				　 <a href="https://bitly.com/"><img src="img/icon-about.png" align="right" class="about_icon"></a>
+		 </section>
+
+		  <a class="toggle">THE LINK KNOWS ALL. SO CAN YOU.</a>
+				<ul class="inner_child">
+				        <p><a href="http://localhost:9393/about"style="text-decoration:none;">about</a></p>
+						<p>enterprise</p>
+						<p>resourse</p>
+						<p>brog</p>
+				</ul>
+
+	    </div>
+	    <p class="message"><%= @messages if @messages%></p>
 		<%= yield %>
+
+		
 	</body>
 </html>
+
+
+
+
+

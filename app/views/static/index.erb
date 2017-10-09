@@ -1,2 +1,26 @@
-<h1>Hello World</h1>
-<p>See Me in views/static/index.html.erb</p>
+
+<div id="main">
+<section class="paste">
+ <form action= '/urls' method="post" id="shino">
+	<input type="text" name="original_url" class="original_url"
+	placeholder="Paste a link to shorten it">
+	<input type="submit" name="submit" class="shorten"value="SHORTEN">
+
+</form>
+</section>
+
+<%if @url && @url.new_url %>
+
+     <p class=url>original</p>
+     <p class="url"><%= Url.all[-1].original_url %></p>
+     <p class="url">shorten</p> 
+ 	 <p class="url"
+
+ 	     <% @shorten_ulr = "localhost:9393/"+ Url.all[-1].new_url  %>>
+ 	     <a href="/<%= @url.new_url %>"><%= @shorten_ulr %></a>
+ 	  </p>
+<% end %>
+
+
+<!-- <div class="shinoshino"></div>
+ -->

@@ -1,0 +1,69 @@
+body {
+	font-family: 'Noto Sans Japanese', sans-serif;
+	background-color: aliceblue;
+	font-size: 16px
+}
+#header{
+	border-width: 25px; /* 枠の幅 */
+	line-height: 120%; /* 行の高さ */
+	margin: 20px;
+	border-radius: 5px;
+	padding: 15px;
+	font-size: 30px;
+	text-align: center; /* テキストの配置 */
+}
+.toggle{
+	text-align: center; 
+}
+.inner_child{
+	display: none;
+}
+section.icon{
+	border-width: 25px; /* 枠の幅 */
+	line-height: 120%; /* 行の高さ */
+	margin: 5px;
+	border-bottom: : 10px;
+	padding-bottom: : 10px;
+	font-size: 30px;
+	text-align: right; /* テキストの配置 */
+}
+
+img.bitly_icon{
+	width:79px;
+    height:36px;
+     }
+ 
+ img.about_icon{
+	width:32px;
+    height:32px;
+     }
+
+.message
+{
+	color: #ff99ff;
+	text-align: center; 
+}
+
+.paste{
+ 	margin: 20px;
+	border-radius: 5px;
+	padding: 15px;
+	text-align: center;
+
+ }
+ input.original_url{
+ 	width:300px;
+    height:30px;
+
+ }
+ input.shorten{
+ 	
+ }
+ .url
+ {
+ 	margin: 5px;
+	border-radius: 5px;
+	padding: 5px;
+	text-align: center;
+ }
+
